@@ -39,13 +39,14 @@ address {
 }
 
 /* Heading Styles */
-/* Underneath, I have changed the font of the h1 and h2 headings */
+/* Underneath, I have changed the font of the h1 and h2 headings so that they appear to be "lighter" as opposed to "bolder". By setting the font weight to normal, the headings are no longer bold. */
 h1,
 h2 {
     font-weight: normal;
 }
 
 /* Navigation Styles */
+/* Below, I have directly affected the nav by changing the text within it to a certain font size/color. I have also made it to where if one where to hover over a link or click on one, the text would change colors. */
 nav>ul {
     list-style-type: none;
     line-height: 2em;
@@ -64,6 +65,7 @@ nav>ul>li>a:hover {
 }
 
 /* Article Styles */
+/* Underneath, I have edited the tour summary by setting certain font sizes to the headings and the actual paragraphs. I have also edited the first line of paragraph text to where the letters appear in all caps but are small in size except for the begininng letter of every word which appears larger. */
 article#tour_summary h1 {
     font-size: 2.2em;
     letter-spacing: 0.2em;
@@ -79,6 +81,7 @@ article#tour_summary p:first-of-type::first-line {
 }
 
 /* Aside Styles */
+/* In the block of code below, I edited the content that appears on the side by changing the fonts for the headings and paragraphs. I have also made it so where the color of the headings and paragraphs alternate between lavender and black. */
 aside#tour_itinerary h1 {
     font-size: 1.2em;
 }
@@ -108,6 +111,7 @@ aside h2:nth-of-type(even) {
 }
 
 /* Blockquote Styles */
+/* Underneath, I have edited the blockquote by giving it a bluish, semitransparent background and by changing the blockquotes dimensions. */
 blockquote {
     background-color: rgb(173, 189, 227);
     color: rgb(255, 255, 255);
